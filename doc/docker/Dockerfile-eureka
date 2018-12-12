@@ -1,5 +1,5 @@
 FROM java:8-jre
-MAINTAINER Pig lengleng <wangiegie@gmail.com>
+MAINTAINER microservice whp <1032998173@qq.com>
 
 ADD ./jar/pig-eureka.jar /app/
 CMD ["java", "-Xmx200m", "-jar", "/app/pig-eureka.jar"]
